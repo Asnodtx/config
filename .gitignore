@@ -30,4 +30,3 @@ systemd/
 user-dirs.dirs
 user-dirs.locale
 variety/
-nvim/
