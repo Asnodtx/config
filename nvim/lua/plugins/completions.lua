@@ -3,12 +3,6 @@ return {
         "hrsh7th/cmp-nvim-lsp",
     },
     {
-        "hrsh7th/vim-vsnip",
-        dependencies = {
-            "hrsh7th/cmp-vsnip",
-        },
-    },
-    {
         "L3MON4D3/LuaSnip",
         dependencies = {
             "saadparwaiz1/cmp_luasnip",

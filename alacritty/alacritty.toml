@@ -2,15 +2,14 @@ general.import = [
 "~/.config/alacritty/themes/catppuccin-mocha.toml"
 ]
 [window]
-  decorations = "None"       
-  startup_mode = "Maximized"  
-  opacity = 0.8
+ decorations = "None"       
+ startup_mode = "Maximized"  
 
 [scrolling]
-  history = 5000
+ history = 5000
 
 [font]
-size = 12
+size = 14
 
 [font.bold]
 family = "Lilex Nerd Font"
