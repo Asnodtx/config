@@ -9,8 +9,9 @@ return{
     require("telescope").setup({})
 
     local builtin = require("telescope.builtin")
-    vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
-    vim.keymap.set("n", "<leader><leader>", builtin.oldfiles, {})
-    vim.keymap.set('n', '<leader>gd', builtin.lsp_definitions, { noremap = true, silent = true })
+    vim.keymap.set("n", "<leader>tb", builtin.buffers, {})
+    vim.keymap.set("n", "<leader>tl", builtin.live_grep, {})
+    vim.keymap.set("n", "<leader>to", builtin.oldfiles, {})
+    vim.keymap.set('n', '<leader>td', builtin.lsp_definitions, {})
   end,
 }
