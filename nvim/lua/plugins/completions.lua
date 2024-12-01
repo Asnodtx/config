@@ -18,7 +18,6 @@ return {
         dependencies = {
             "hrsh7th/cmp-buffer",
             "hrsh7th/cmp-path",
-            "hrsh7th/cmp-vsnip",  -- Integración con vim-vsnip
         },
         config = function()
             local cmp = require("cmp")
