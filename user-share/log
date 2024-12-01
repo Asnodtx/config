@@ -1,3 +1,6 @@
 [Fri Nov 22 09:58:03.147319 2024] [mpm_prefork:notice] [pid 171959:tid 171959] AH00163: Apache/2.4.62 (Unix) configured -- resuming normal operations
 [Fri Nov 22 09:58:03.147380 2024] [core:notice] [pid 171959:tid 171959] AH00094: Command line: '/usr/bin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 40777'
 [Fri Nov 22 09:58:06.394599 2024] [mpm_prefork:notice] [pid 171959:tid 171959] AH00169: caught SIGTERM, shutting down
+[Wed Nov 27 20:44:38.315128 2024] [mpm_prefork:notice] [pid 63234:tid 63234] AH00163: Apache/2.4.62 (Unix) configured -- resuming normal operations
+[Wed Nov 27 20:44:38.315460 2024] [core:notice] [pid 63234:tid 63234] AH00094: Command line: '/usr/bin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 40049'
+[Wed Nov 27 20:45:28.077867 2024] [mpm_prefork:notice] [pid 63234:tid 63234] AH00169: caught SIGTERM, shutting down
