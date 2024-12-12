@@ -43,7 +43,7 @@ return {
                 }),
                 sources = cmp.config.sources({
                     { name = "nvim_lsp" },
-                    { name = "vsnip" }, -- Integración con vim-vsnip
+                    { name = "luasnip" }, 
                     { name = "path" },
                 }, {
                     { name = "buffer" },

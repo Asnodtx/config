@@ -6,6 +6,8 @@ return {
 			ensure_installed = {
 				"eslint-lsp",
 				"prettierd",
+        "html-lsp", 
+        "css-lsp",  
 			},
 		},
 		config = function()
@@ -25,7 +27,7 @@ return {
 		config = function()
 			local lspconfig = require("lspconfig")
 
-			local servers = {"eslint", "jdtls", "ts_ls" }
+			local servers = {"eslint", "jdtls", "ts_ls", "html", "cssls"  }
 
 			for _, lsp in ipairs(servers) do
 				lspconfig[lsp].setup({
